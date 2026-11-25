@@ -1,4 +1,4 @@
-# sota-io
+# sota.io
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sota-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sota.io/
+sota.io is a European‑native Platform‑as‑a‑Service (PaaS) that lets developers deploy Node.js, Next.js, Python and AI‑agent applications directly to EU‑based infrastructure. It offers a CLI, REST API and Model Context Protocol (MCP) integration for AI agents, with automatic HTTPS, managed PostgreSQL, container isolation via gVisor, and full compliance with GDPR, NIS2 and the upcoming EU AI Act. The service is hosted in Germany, avoids US CLOUD‑Act exposure, and provides flat‑rate pricing, enterprise plans and extensive documentation for quick start, custom domains, webhooks and database management.
+
+**Areas:** Company · PaaS · EU · Cloud · Deployment
+
+## sota.io on APIs.io
+
+Everything profiled for sota.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sota-io/](https://apis.io/providers/sota-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Sota.io REST API](https://apis.io/apis/sota-io/sotaio-rest-api/) — The Sota.io REST API provides programmatic access to all platform operations.
+- [sota.io API](https://apis.io/apis/sota-io/sota-io-api/) — sota.io API as documented publicly: 33 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Sota Io Webhooks](https://apis.io/asyncapis/sota-io/sota-io-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1PartnerUsersResponse](https://apis.io/schemas/sota-io/sota-io-get-v1-partner-users-response/)
+- [GetV1ProjectsIdDomainsDomainidResponse](https://apis.io/schemas/sota-io/sota-io-get-v1-projects-id-domains-domainid-response/)
+- [GetV1ProjectsIdDomainsResponse](https://apis.io/schemas/sota-io/sota-io-get-v1-projects-id-domains-response/)
+- [PostV1PartnerUsersResponse](https://apis.io/schemas/sota-io/sota-io-post-v1-partner-users-response/)
+- [PostV1ProjectsIdDomainsResponse](https://apis.io/schemas/sota-io/sota-io-post-v1-projects-id-domains-response/)
+- [PostV1ProjectsIdWebhooksResponse](https://apis.io/schemas/sota-io/sota-io-post-v1-projects-id-webhooks-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sota Io Context](https://apis.io/jsonld/sota-io/sota-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [sota.io API Rules](https://apis.io/rules/sota-io/sota-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [sota.io Authentication](https://apis.io/security/sota-io/sota-io-authentication/)
+- [sota.io Domain Security](https://apis.io/security/sota-io/sota-io-domain-security/)
+- [sota.io Vulnerability Disclosure](https://apis.io/security/sota-io/sota-io-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sota.io/)
+- [Documentation](https://sota.io/docs)
+- [Getting started](https://sota.io/docs/getting-started/introduction)
+- [Pricing](https://sota.io/pricing)
+- [Changelog](https://github.com/sota-deploy/cli/releases)
+- [Blog](https://sota.io/blog)
+- [Security](https://sota.io/security)
+- [Terms of service](https://sota.io/terms)
+- [Privacy policy](https://sota.io/privacy)
+- [GitHub](https://github.com/sota-deploy)
+
+## API Evangelist rating
+
+**Kin Score 53.9** — developing · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 44.7 |
+
+**Agent readiness 22.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sota-io/](https://apis.io/providers/sota-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for sota.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sota-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
